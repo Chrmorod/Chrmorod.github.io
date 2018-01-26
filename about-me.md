@@ -9,7 +9,7 @@ sitemap:
 ---
 ## About me
 
-<span class="image right"><img src="{{ "https://avatars3.githubusercontent.com/u/21985625?s=460&v=4" | absolute_url }}" alt="" /></span>
+<span class="image right"><img src="{{ "/images/foto1.png" | absolute_url }}" alt="" /></span>
 
 <p>
 Hello everybody! My name is Christan Molina. Throughout my university life I started to have a great interest in programming, especially with subjects like GIS and SDI.
