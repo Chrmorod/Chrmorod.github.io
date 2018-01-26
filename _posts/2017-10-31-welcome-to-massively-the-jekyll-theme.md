@@ -19,10 +19,10 @@ With Jekyll you can replace WordPress, Joomla or any CMS, has friendly urls, cat
 Speed: We are serving static pages, we do not need to speak with a database to ask for the information in each request or to give data in the server.
 <div class="6u 12u$(small)">
 <ul>
-    <li>Security: There is no database or dynamic content that can be hacked.</li>
+    <li>Security:</li> There is no database or dynamic content that can be hacked.
 
-    <li>Less maintenance: Since we do not have a database, we do not have to worry about configuring or maintaining it.</li>
+    <li>Less maintenance:</li> Since we do not have a database, we do not have to worry about configuring or maintaining it.
 
-    <li>Free hosting: We can host our site for free in Github Pages.</li>
+    <li>Free hosting:</li> We can host our site for free in Github Pages.
 </ul>
 </div>
