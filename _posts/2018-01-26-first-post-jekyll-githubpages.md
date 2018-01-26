@@ -16,9 +16,10 @@ Jekyll is designed to create static blogs. We can publish and maintain our blog 
 With Jekyll you can replace WordPress, Joomla or any CMS, has friendly urls, categories, pages, posts, templates, etc.
 
 ## Advantages
-Speed: We are serving static pages, we do not need to speak with a database to ask for the information in each request or to give data in the server.
+
 <ul>
-    <li>Security: There is no database or dynamic content that can be hacked </li>
-    <li>Less maintenance:Since we do not have a database, we do not have to worry about configuring or maintaining it </li>
-    <li>Free hosting: We can host our site for free in Github Pages </li>
+    <li>Speed: We are serving static pages, we do not need to speak with a database to ask for the information in each request or to give data in the server.</li>
+    <li>Security: There is no database or dynamic content that can be hacked.</li>
+    <li>Less maintenance:Since we do not have a database, we do not have to worry about configuring or maintaining it.</li>
+    <li>Free hosting: We can host our site for free in Github Pages.</li>
 </ul>
