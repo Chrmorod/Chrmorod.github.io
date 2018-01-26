@@ -1,28 +1,28 @@
 ---
 layout: post
-title:  "Welcome to Massively: The Jekyll Theme!"
-date:   2017-10-31
-excerpt: "Huge thanks to HTML5 UP for making this awesome template! Let's see what it can do"
-image: "/images/pic02.jpg"
+title:  "First Post: Jekyll and Github Pages"
+date:   2018-01-26
+excerpt: "Simplicity is the key"
+image: "/images/jekyll.png"
 ---
 
-## How to Use This Theme
-Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
+## What is Jekyll?
+Jekyll is a simple, blog-aware, static site generator.
 
-Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively) and save it to any folder you want.
+Jekyll is a generator of static sites written in Ruby. A generator of static sites takes a series of text files (written in Markdown) and templates that are processed to finally get pages of HTML ready to publish in any server.
 
-Open a terminal window or a command line and ```cd``` to that location.
+Jekyll is designed to create static blogs. We can publish and maintain our blog by simply managing a directory of text files.
 
-Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
+With Jekyll you can replace WordPress, Joomla or any CMS, has friendly urls, categories, pages, posts, templates, etc.
 
-## Features
-### Auto-Generating Sitemap
-The sitemap is auto generated! Just simply change the front matter of each site. It looks like so...
-```
-sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-```
-### Formspring integration
-The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
+## Advantages
+Speed: We are serving static pages, we do not need to speak with a database to ask for the information in each request or to give data in the server.
+<div class="6u 12u$(small)">
+<ul>
+    <li>Security: There is no database or dynamic content that can be hacked.</li>
+
+    <li>Less maintenance: Since we do not have a database, we do not have to worry about configuring or maintaining it.</li>
+
+    <li>Free hosting: We can host our site for free in Github Pages.</li>
+</ul>
+</div>
