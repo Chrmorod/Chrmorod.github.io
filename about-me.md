@@ -12,7 +12,7 @@ sitemap:
 <span class="image right"><img src="{{ "/images/foto1.png" | absolute_url }}" alt="" /></span>
 
 <p>
-Hello everybody! My name is Christan Molina. Throughout my university life I started to have a great interest in programming, especially with subjects like GIS and SDI.
+Hello everybody! My name is Christan Molina. Throughout my university life I started to have a great interest in programming, specially with subjects like GIS and SDI.
 
 I signed up in diferents courses about web programming. In that moment I realised that I really wanted to spend my time in this matter.
 
