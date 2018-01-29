@@ -17,7 +17,7 @@ header.subjects{
 }
 div.contenedor{
 	width: 10em;
-	height: 10em;
+	height: 230px;
 	float:left;
 	-webkit-transition: height .4s;
 }
