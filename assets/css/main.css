@@ -12,7 +12,6 @@
 header.subjects{
 	display: flex;
 	justify-content: space-between;
-	margin:10% auto;
 	width:30%;
 	height:230px;
 	background-color: red;
