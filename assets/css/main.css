@@ -61,6 +61,7 @@ p.texto{
 	font-size: 1.2em;
 	color:white;
 	text-align: center;
+	padding-top:10px;
 	opacity: .6;
 	-webkit-transition: padding-top .4s;
 }
