@@ -10,8 +10,10 @@
 /* Reset */
 /* menu de asignaturas*/
 header.subjects{
-	margin:100px auto;
-	width:1200px;
+	display: flex;
+	justify-content: space-around;
+	margin:5% auto;
+	width:30%;
 	height:230px;
 	background-color: red;
 }
