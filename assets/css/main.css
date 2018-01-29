@@ -8,6 +8,78 @@
 */
 
 /* Reset */
+/* menu de asignaturas*/
+header.subjects{
+	margin:100px auto;
+	width:1200px;
+	height:230px;
+	background-color: red;
+}
+
+div.contenedor{
+	width: 200px;
+	height: 230px;
+	float:left;
+	-webkit-transition: height .4s;
+}
+
+div#uno{
+	background-color: rgb(208,101,3);
+}
+
+div#dos{
+	background-color: rgb(233,147,26);
+}
+
+div#tres{
+	background-color: rgb(22,145,190);
+}
+
+div#cuatro{
+	background-color: rgb(22,107,162);
+}
+
+div#cinco{
+	background-color: rgb(27,54,71);
+}
+
+div#seis{
+	background-color: rgb(21,40,54);
+}
+
+img.icono{
+	display: block;
+	margin:50px auto;
+	background-color: rgba(255,255,255,.15);
+	width:20px;
+	padding:20px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+	-webkit-transition:box-shadow .4s;
+}
+
+p.texto{
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	padding-top:10px;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
+}
+
+div.contenedor:hover{
+	height:250px;
+}
+
+div.contenedor:hover p.texto{
+	padding-top: 30px;
+	opacity: 1;
+}
+
+div.contenedor:hover img.icon{
+	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
+}
+/*menu asignaturas*/
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -4478,77 +4550,3 @@
 			box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
 			visibility: visible;
 		}
-		/* menu de asignaturas*/
-		header.subjects{
-			margin:100px auto;
-			width:1200px;
-			height:230px;
-			background-color: red;
-		}
-
-		div.contenedor{
-			width: 200px;
-			height: 230px;
-			float:left;
-			-webkit-transition: height .4s;
-		}
-
-		div#uno{
-			background-color: rgb(208,101,3);
-		}
-
-		div#dos{
-			background-color: rgb(233,147,26);
-		}
-
-		div#tres{
-			background-color: rgb(22,145,190);
-		}
-
-		div#cuatro{
-			background-color: rgb(22,107,162);
-		}
-
-		div#cinco{
-			background-color: rgb(27,54,71);
-		}
-
-		div#seis{
-			background-color: rgb(21,40,54);
-		}
-
-		img.icono{
-			display: block;
-			margin:50px auto;
-			background-color: rgba(255,255,255,.15);
-			width:20px;
-			padding:20px;
-			-webkit-border-radius: 50%;
-			-webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
-			-webkit-transition:box-shadow .4s;
-		}
-
-		p.texto{
-			font-size: 1.2em;
-			color:white;
-			text-align: center;
-			padding-top:10px;
-			opacity: .6;
-			-webkit-transition: padding-top .4s;
-		}
-
-		div.contenedor:hover{
-			height:250px;
-		}
-
-		div.contenedor:hover p.texto{
-			padding-top: 30px;
-			opacity: 1;
-		}
-
-		div.contenedor:hover img.icon{
-			-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
-		}
-
-
-	}
