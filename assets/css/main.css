@@ -13,13 +13,17 @@ ul.subjects{
 	display: flex;
 	justify-content:space-around;
 	height:230px;
-	list-style: none;
 }
 li.contenedor{
 	width: 200px;
 	height: 230px;
 	float:left;
 	-webkit-transition: height .4s;
+	list-style: none;
+}
+
+li#uno{
+	background-color: rgb(208,101,3);
 	font-size: 1.2em;
 	color:white;
 	text-align: center;
@@ -27,28 +31,49 @@ li.contenedor{
 	-webkit-transition: padding-top .4s;
 }
 
-li#uno{
-	background-color: rgb(208,101,3);
-}
-
 li#dos{
 	background-color: rgb(233,147,26);
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
 }
 
 li#tres{
 	background-color: rgb(22,145,190);
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
 }
 
 li#cuatro{
 	background-color: rgb(22,107,162);
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
 }
 
 li#cinco{
 	background-color: rgb(27,54,71);
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
 }
 
 li#seis{
 	background-color: rgb(21,40,54);
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
 }
 
 img.icono{
@@ -62,13 +87,13 @@ img.icono{
 	-webkit-transition:box-shadow .4s;
 }
 
-p.texto{
+/*p.texto{
 	font-size: 1.2em;
 	color:white;
 	text-align: center;
 	opacity: .6;
 	-webkit-transition: padding-top .4s;
-}
+}*/
 
 li.contenedor:hover{
 	height:250px;
