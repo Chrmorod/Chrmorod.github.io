@@ -44,10 +44,9 @@
           </article>
 					<!-- Post -->
 					<section class="posts">
-						{% for postmarkuplang in site.posts %}
+						{% for post in site.posts %}
 						{% assign mod3 = forloop.index | modulo: 3 %}
-
-						<article>
+							<article>
 								<header>
 									<span class="date">{{ post.date | date_to_string }}</span>
 									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
@@ -57,12 +56,20 @@
 								<ul class="actions">
 									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
 								</ul>
-						</article>
+							</article>
+							{% if mod3 == 0 %}
+							<article>
+								<header>
+									<h2><a href="#">Sponsored</h2>
+								</header>
+
+							</article>
 							{% endif %}
 						{% endfor %}
 
 					</section>
-				</div>
+
+					</div>
 					<!-- Footer -->
 					{% include foot.html %}
 			</div>
