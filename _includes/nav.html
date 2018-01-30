@@ -2,5 +2,10 @@
   <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
   <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about-me/" | absolute_url }}">About me</a></li>
   <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">Blog</a></li>
+  <li class="{% if page.url contains '/markuplang/' %} active {% endif %}"><a href="{{ "/markuplang/" | absolute_url }}"></a>Mark-up Lang</li>
+  <li class="{% if page.url contains '/itsystem/' %} active {% endif %}"><a href="{{ "/itsystem/" | absolute_url }}">IT Systems</a></li>
+  <li class="{% if page.url contains '/devepenvi/' %} active {% endif %}"><a href="{{ "/devepenvi/" | absolute_url }}">Develop.environ</a></li>
+  <li class="{% if page.url contains '/bbdd/' %} active {% endif %}"><a href="{{ "/bbdd/" | absolute_url }}">BBDD</a></li>
+  <li class="{% if page.url contains '/program/' %} active {% endif %}"><a href="{{ "/program/" | absolute_url }}">Programming</a></li>
   <!--<li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/elements/" | absolute_url }}">Elements Reference</a></li>-->
 </ul>
