@@ -44,31 +44,19 @@
           </article>
 					<!-- Post -->
 					<section class="posts">
-						{% for post in site.posts %}
-						{% assign mod3 = forloop.index | modulo: 3 %}
-							<article>
-								<header>
-									<span class="date">{{ post.date | date_to_string }}</span>
-									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
-								</header>
-								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-								<p>{{ post.excerpt }}</p>
-								<ul class="actions">
-									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-								</ul>
-							</article>
-							{% if mod3 == 0 %}
-							<article>
-								<header>
-									<h2><a href="#">Sponsored</h2>
-								</header>
-
-							</article>
-							{% endif %}
-						{% endfor %}
+						<article>
+							<header>
+								<span class="date">30 Jan 2018</span>
+								<h2><a href="/blog/2018/01/30/LLMM-post/">LLMM</a></h2>
+							</header>
+							<a href="/blog/2018/01/30/LLMM-post/" class="image fit"><img src="" alt=""></a>
+							<p>Proof</p>
+							<ul class="actions">
+								<li><a href="/blog/2018/01/30/LLMM-post/" class="button">Full Story</a></li>
+							</ul>
+						</article>
 
 					</section>
-
 					</div>
 					<!-- Footer -->
 					{% include foot.html %}
