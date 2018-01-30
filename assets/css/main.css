@@ -46,6 +46,15 @@ a#cinco{
 a#seis{
 	background-color: rgb(21,40,54);
 }
+a#seis{
+	background-color: rgb(21,40,54);
+}
+a#siete{
+	background-color: rgb(4, 139, 90);
+}
+a#ocho{
+	background-color: rgb(4, 93, 90);
+}
 
 img.icono{
 	display: block;
