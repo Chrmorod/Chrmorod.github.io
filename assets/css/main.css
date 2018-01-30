@@ -23,27 +23,27 @@ div.contenedor{
 	list-style: none;
 }
 
-div#uno{
+a#uno{
 	background-color: rgb(208,101,3);
 }
 
-div#dos{
+a#dos{
 	background-color: rgb(233,147,26);
 }
 
-div#tres{
+a#tres{
 	background-color: rgb(22,145,190);
 }
 
-div#cuatro{
+a#cuatro{
 	background-color: rgb(22,107,162);
 }
 
-div#cinco{
+a#cinco{
 	background-color: rgb(27,54,71);
 }
 
-div#seis{
+a#seis{
 	background-color: rgb(21,40,54);
 }
 
