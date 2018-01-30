@@ -45,17 +45,17 @@
           </article>
 					<!-- Post -->
 					<section class="posts">
-						{% for post in site.posts %}
-						{% assign mod3 = forloop.index | modulo: 3 %}
+						{% for markuplang in site.categories.postsmarkuplang %}
+						{markuplang.output}
 							<article>
 								<header>
-									<span class="date">{{ postmarkuplang.date | date_to_string }}</span>
-									<h2><a href="{{ postmarkuplang.url | absolute_url }}">{{ postmarkuplang.title }}</h2>
+									<span class="date">{{ post.date | date_to_string }}</span>
+									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
 								</header>
-								<a href="{{ postmarkuplang.url | absolute_url }}" class="image fit"><img src="{{ postmarkuplang.image | absolute_url }}" alt="" /></a>
-								<p>{{ postmarkuplang.excerpt }}</p>
+								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+								<p>{{ post.excerpt }}</p>
 								<ul class="actions">
-									<li><a href="{{ postmarkuplang.url | absolute_url }}" class="button">Full Story</a></li>
+									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
 								</ul>
 							</article>
 							{% if mod3 == 0 %}
@@ -69,6 +69,11 @@
 						{% endfor %}
 
 					</section>
+
+					</div>
+
+					<!-- Footer -->
+					{% include foot.html %}
 
 					</div>
 
