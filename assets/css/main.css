@@ -87,13 +87,13 @@ img.icono{
 	-webkit-transition:box-shadow .4s;
 }
 
-/*p.texto{
+p.texto{
 	font-size: 1.2em;
 	color:white;
 	text-align: center;
 	opacity: .6;
 	-webkit-transition: padding-top .4s;
-}*/
+}
 
 li.contenedor:hover{
 	height:250px;
