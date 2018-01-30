@@ -13,6 +13,7 @@ ul.subjects{
 	display: flex;
 	justify-content:space-around;
 	height:230px;
+	list-style: none;
 }
 li.contenedor{
 	width: 200px;
