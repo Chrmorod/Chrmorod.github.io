@@ -44,8 +44,9 @@
           </article>
 					<!-- Post -->
 					<section class="posts">
-						{% for postsmarkuplang in site.categories %}
-						{markuplang.output}
+						{% for post in site.postsmarkuplang %}
+						{% assign mod3 = forloop.index | modulo: 3 %}
+						
 						<article>
 								<header>
 									<span class="date">{{ post.date | date_to_string }}</span>
@@ -57,6 +58,7 @@
 									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
 								</ul>
 						</article>
+							{% endif %}
 						{% endfor %}
 
 					</section>
