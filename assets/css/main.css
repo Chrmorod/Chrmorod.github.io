@@ -13,6 +13,7 @@ header.subjects{
 	display: flex;
 	justify-content:space-around;
 	height:230px;
+	flex-wrap: wrap;
 }
 div.contenedor{
 	width: 200px;
