@@ -9,6 +9,9 @@
 
 /* Reset */
 /* menu de asignaturas*/
+a.imagemain{
+margin-top: auto;	
+}
 header.subjects{
 	display: flex;
 	justify-content:space-around;
