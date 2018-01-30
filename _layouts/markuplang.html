@@ -36,7 +36,6 @@
 
 				<!-- Main -->
 				<div id="main">
-
           <article class="post featured">
             <header class="major">
               <h2><a href="#">Mark-up Language</a></h2>
@@ -47,7 +46,7 @@
 					<section class="posts">
 						{% for markuplang in site.categories.postsmarkuplang %}
 						{markuplang.output}
-							<article>
+						<article>
 								<header>
 									<span class="date">{{ post.date | date_to_string }}</span>
 									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
@@ -57,20 +56,14 @@
 								<ul class="actions">
 									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
 								</ul>
+						</article>
 						{% endfor %}
-					</section>
-					</div>
 
+					</section>
+				</div>
 					<!-- Footer -->
 					{% include foot.html %}
-
-					</div>
-
-				<!-- Footer -->
-        {% include foot.html %}
-
 			</div>
-
 			<!-- Scripts -->
 			{% include scripts-main.html %}
 			{% include tracking.html %}
