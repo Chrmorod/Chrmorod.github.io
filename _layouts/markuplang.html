@@ -44,9 +44,9 @@
           </article>
 					<!-- Post -->
 					<section class="posts">
-						{% for post in site.postsmarkuplang %}
+						{% for postmarkuplang in site.posts %}
 						{% assign mod3 = forloop.index | modulo: 3 %}
-						
+
 						<article>
 								<header>
 									<span class="date">{{ post.date | date_to_string }}</span>
