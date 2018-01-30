@@ -9,39 +9,39 @@
 
 /* Reset */
 /* menu de asignaturas*/
-header.subjects{
+ul.subjects{
 	display: flex;
 	justify-content:space-around;
 	height:230px;
 }
-div.contenedor{
+li.contenedor{
 	width: 200px;
 	height: 230px;
 	float:left;
 	-webkit-transition: height .4s;
 }
 
-div#uno{
+li#uno{
 	background-color: rgb(208,101,3);
 }
 
-div#dos{
+li#dos{
 	background-color: rgb(233,147,26);
 }
 
-div#tres{
+li#tres{
 	background-color: rgb(22,145,190);
 }
 
-div#cuatro{
+li#cuatro{
 	background-color: rgb(22,107,162);
 }
 
-div#cinco{
+li#cinco{
 	background-color: rgb(27,54,71);
 }
 
-div#seis{
+li#seis{
 	background-color: rgb(21,40,54);
 }
 
@@ -64,16 +64,16 @@ p.texto{
 	-webkit-transition: padding-top .4s;
 }
 
-div.contenedor:hover{
+li.contenedor:hover{
 	height:250px;
 }
 
-div.contenedor:hover p.texto{
+li.contenedor:hover p.texto{
 	padding-top: 30px;
 	opacity: 1;
 }
 
-div.contenedor:hover img.icon{
+li.contenedor:hover img.icon{
 	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
 }
 /*menu asignaturas*/
