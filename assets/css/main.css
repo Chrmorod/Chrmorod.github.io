@@ -10,7 +10,8 @@
 /* Reset */
 /* menu de asignaturas*/
 a.imagemain{
-margin-top: auto;	
+margin-top: auto;
+float: left;	
 }
 header.subjects{
 	display: flex;
