@@ -11,7 +11,7 @@
 /* menu de asignaturas*/
 header.subjects{
 	display: flex;
-	justify-content:space-around;
+	justify-content:center;
 	height:230px;
 	flex-wrap: wrap;
 }
