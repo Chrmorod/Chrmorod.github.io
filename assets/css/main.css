@@ -20,6 +20,11 @@ li.contenedor{
 	height: 230px;
 	float:left;
 	-webkit-transition: height .4s;
+	font-size: 1.2em;
+	color:white;
+	text-align: center;
+	opacity: .6;
+	-webkit-transition: padding-top .4s;
 }
 
 li#uno{
