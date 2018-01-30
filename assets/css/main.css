@@ -9,12 +9,12 @@
 
 /* Reset */
 /* menu de asignaturas*/
-ul.subjects{
+header.subjects{
 	display: flex;
 	justify-content:space-around;
 	height:230px;
 }
-li.contenedor{
+div.contenedor{
 	width: 200px;
 	height: 230px;
 	float:left;
@@ -22,58 +22,28 @@ li.contenedor{
 	list-style: none;
 }
 
-li#uno{
+div#uno{
 	background-color: rgb(208,101,3);
-	font-size: 1.2em;
-	color:white;
-	text-align: center;
-	opacity: .6;
-	-webkit-transition: padding-top .4s;
 }
 
 li#dos{
 	background-color: rgb(233,147,26);
-	font-size: 1.2em;
-	color:white;
-	text-align: center;
-	opacity: .6;
-	-webkit-transition: padding-top .4s;
 }
 
 li#tres{
 	background-color: rgb(22,145,190);
-	font-size: 1.2em;
-	color:white;
-	text-align: center;
-	opacity: .6;
-	-webkit-transition: padding-top .4s;
 }
 
 li#cuatro{
 	background-color: rgb(22,107,162);
-	font-size: 1.2em;
-	color:white;
-	text-align: center;
-	opacity: .6;
-	-webkit-transition: padding-top .4s;
 }
 
 li#cinco{
 	background-color: rgb(27,54,71);
-	font-size: 1.2em;
-	color:white;
-	text-align: center;
-	opacity: .6;
-	-webkit-transition: padding-top .4s;
 }
 
 li#seis{
 	background-color: rgb(21,40,54);
-	font-size: 1.2em;
-	color:white;
-	text-align: center;
-	opacity: .6;
-	-webkit-transition: padding-top .4s;
 }
 
 img.icono{
@@ -95,16 +65,16 @@ p.texto{
 	-webkit-transition: padding-top .4s;
 }
 
-li.contenedor:hover{
+div.contenedor:hover{
 	height:250px;
 }
 
-li.contenedor:hover p.texto{
+div.contenedor:hover p.texto{
 	padding-top: 30px;
 	opacity: 1;
 }
 
-li.contenedor:hover img.icon{
+div.contenedor:hover img.icon{
 	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
 }
 /*menu asignaturas*/
