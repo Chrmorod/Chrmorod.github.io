@@ -8,7 +8,7 @@ image:"/images/xmlimage.png"
 
 ## UNIT 1 EXERCISE 1
 ### Student List
-'''xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <lista_alumnado>
   <alumno>
@@ -60,11 +60,11 @@ image:"/images/xmlimage.png"
     <edad>31</edad>
   </alumno>
 </lista_alumnado>
-'''
+```
 
 ## UNIT 1 EXERCISE 2
 ### Student List with DTD Restrictions
-'''xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE lista_alumnado
 [
@@ -126,11 +126,11 @@ image:"/images/xmlimage.png"
     <edad>31</edad>
   </alumno>
 </lista_alumnado>
-'''
+```
 
 ## UNIT 1 EXERCISE 3
 ### Order List with DTD Restrictions
-'''xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE lista_pedidos
 [
@@ -175,11 +175,11 @@ image:"/images/xmlimage.png"
                  </productos>
           </pedido>
 </lista_pedidos>
-'''
+```
 
 ## UNIT 1 EXERCISE 4
 ### Subjects of  Multiplatform Applications Development Course with DTD Restrictions
-'''xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Lista_Asignaturas[
 <!ELEMENT Lista_Asignaturas (Nombre_Asignatura*)>
@@ -205,10 +205,10 @@ image:"/images/xmlimage.png"
 <Nombre_Asignatura cod="DAM1013008" dep_1="DAM1003700" dep_2="DAM1010005" dep_3="DAM1011006">Formación en Centros de Trabajo</Nombre_Asignatura>
 <Nombre_Asignatura cod="DAM1014009" dep_1="DAM1007002">Ingles Técnico2º</Nombre_Asignatura>
 </Lista_Asignaturas>
-'''
+```
 ## UNIT 1 FINAL EXERCISE
 ### Hospital Patients List with DTD Restrictions
-'''xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pacientes[
 <!ELEMENT pacientes (paciente*)>
@@ -359,4 +359,4 @@ image:"/images/xmlimage.png"
   </direccion>
 </paciente>
 </pacientes>
-'''
+```
