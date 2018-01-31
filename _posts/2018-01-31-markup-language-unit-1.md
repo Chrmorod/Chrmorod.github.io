@@ -1,5 +1,5 @@
 ---
-layout: llmm
+layout: post
 title:  "Mark Up Language Unit 1"
 date:   2018-01-31
 excerpt: "Unit 1 XML and DTD"
