@@ -1,6 +1,6 @@
 ---
 layout: llmm
-title:  "Mark-Up-Language-Unit-1"
+title:  "Mark Up Language Unit 1"
 date:   2018-01-30
 excerpt: "Unit 1 XML and DTD"
 image: ""
