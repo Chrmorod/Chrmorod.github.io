@@ -8,7 +8,7 @@ image:"/images/xmlimage.png"
 
 ## UNIT 1 EXERCISE 1
 ### Student List
-''' xml
+'''xml
 <?xml version="1.0" encoding="UTF-8"?>
 <lista_alumnado>
   <alumno>
@@ -64,7 +64,7 @@ image:"/images/xmlimage.png"
 
 ## UNIT 1 EXERCISE 2
 ### Student List with DTD Restrictions
-''' xml
+'''xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE lista_alumnado
 [
@@ -130,7 +130,7 @@ image:"/images/xmlimage.png"
 
 ## UNIT 1 EXERCISE 3
 ### Order List with DTD Restrictions
-''' xml
+'''xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE lista_pedidos
 [
@@ -179,7 +179,7 @@ image:"/images/xmlimage.png"
 
 ## UNIT 1 EXERCISE 4
 ### Subjects of  Multiplatform Applications Development Course with DTD Restrictions
-''' xml
+'''xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Lista_Asignaturas[
 <!ELEMENT Lista_Asignaturas (Nombre_Asignatura*)>
@@ -208,7 +208,7 @@ image:"/images/xmlimage.png"
 '''
 ## UNIT 1 FINAL EXERCISE
 ### Hospital Patients List with DTD Restrictions
-''' xml
+'''xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pacientes[
 <!ELEMENT pacientes (paciente*)>
