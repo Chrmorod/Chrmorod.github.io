@@ -16,33 +16,33 @@ header.exer{
 	justify-content: center;
 }
 
-div.contenedor{
+a.contenedor{
 	width: 200px;
 	height: 230px;
 	text-align:center;
 }
 
-div#uno{
+a#uno{
 	background-color: rgb(208,101,3);
 }
 
-div#dos{
+a#dos{
 	background-color: rgb(233,147,26);
 }
 
-div#tres{
+a#tres{
 	background-color: rgb(22,145,190);
 }
 
-div#cuatro{
+a#cuatro{
 	background-color: rgb(22,107,162);
 }
 
-div#cinco{
+a#cinco{
 	background-color: rgb(27,54,71);
 }
 
-div#seis{
+a#seis{
 	background-color: rgb(21,40,54);
 }
 
@@ -65,16 +65,16 @@ p.texto{
 	-webkit-transition: padding-top .4s;
 }
 
-div.contenedor:hover{
+a.contenedor:hover{
 	height:250px;
 }
 
-div.contenedor:hover p.texto{
+a.contenedor:hover p.texto{
 	padding-top: 30px;
 	opacity: 1;
 }
 
-div.contenedor:hover img.icon{
+a.contenedor:hover img.icon{
 	-webkit-box-shadow:0px 0px 0px 0px rgba(255,255,255,.6);
 }
 /*menu ejercicios*/
